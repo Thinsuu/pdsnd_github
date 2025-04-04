@@ -14,5 +14,5 @@ This project features of bikeshare analysis which shows the statistics of bike u
 
 ## Credits
 
-- https://github.com/udacity/ud777-writing-readmes
+- [Udacity repo of how to write readmes](https://github.com/udacity/ud777-writing-readmes)
 - Udacity Python and Git courses
