@@ -4,6 +4,8 @@ This is a Udacity project repository. The main goal is to study how to work with
 
 This project features of bikeshare analysis which shows the statistics of bike users, travel duration and bike stations, etc.
 
+For proper work of the script, you need the csv dataset files. Those you can download from the Udacity Python course.
+
 ## Files used
 
 - Main script: bikeshare.py
