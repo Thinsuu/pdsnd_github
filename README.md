@@ -1,17 +1,18 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Bike share analysis
 
-### Date created
-Include the date you created this project and README file.
+This is a Udacity project repository. The main goal is to study how to work with git in deeper understanding which includes fork the project, using git branch and a professional readme file. 
 
-### Project Title
-Replace the Project Title
+This project features of bikeshare analysis which shows the statistics of bike users, travel duration and bike stations, etc.
 
-### Description
-Describe what your project is about and what it does
+## Files used
 
-### Files used
-Include the files used
+- Main script: bikeshare.py
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+## Date of creation
 
+2025-04-04
+
+## Credits
+
+- https://github.com/udacity/ud777-writing-readmes
+- Udacity Python and Git courses
