@@ -4,7 +4,7 @@ This is a Udacity project repository. The main goal is to study how to work with
 
 This project features of bikeshare analysis which shows the statistics of bike users, travel duration and bike stations, etc.
 
-For proper work of the script, you need the csv dataset files. Those you can download from the Udacity Python course.
+For proper work of the script, you need the csv dataset files. Those you can download from the [Udacity Python course](https://www.udacity.com/enrollment/nd104).
 
 ## Files used
 
@@ -17,4 +17,4 @@ For proper work of the script, you need the csv dataset files. Those you can dow
 ## Credits
 
 - [Udacity repo of how to write readmes](https://github.com/udacity/ud777-writing-readmes)
-- Udacity Python and Git courses
+- [Udacity Python and Git courses](https://www.udacity.com/enrollment/nd104)
