@@ -72,8 +72,8 @@ def station_stats(df):
     total_trip = df["Start Station"] + " -> " + df["End Station"]
     frequent_combo_start_end = total_trip.mode()[0]
     print("The popular start station: ", popular_start_station)
-    print("\nThe most popular end station: ", popular_end_station)
-    print("\nThe most frequent start and end station: ", frequent_combo_start_end)
+    print("The most popular end station: ", popular_end_station)
+    print("The most frequent start and end station: ", frequent_combo_start_end)
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -84,8 +84,8 @@ def trip_duration_stats(df):
     start_time = time.time()
     total_time = df["Trip Duration"].sum()
     total_mean_time = df["Trip Duration"].mean()
-    print("\nTotal trip duration in seconds is:", total_time)
-    print("\nTotal average time in seconds is:", total_mean_time)
+    print("Total trip duration in seconds is:", total_time)
+    print("Total average time in seconds is:", total_mean_time)
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
  
@@ -96,7 +96,7 @@ def user_stats(df):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
     user_types_count = df["User Type"].value_counts()
-    print("\nUser Type Count is: \n", user_types_count)
+    print("User Type Count is: \n", user_types_count)
     
     if "Gender" in df.columns:
         gender_count = df["Gender"].value_counts()
@@ -109,7 +109,7 @@ def user_stats(df):
         earliest_birth = df["Birth Year"].min()
         recent_birth = df["Birth Year"].max()
         popular_birth = df["Birth Year"].mode()[0]
-        print("\nEarliest of the birth year: ", earliest_birth)
+        print("Earliest of the birth year: ", earliest_birth)
         print("Most recent birth: ", recent_birth)
         print("Most common birth year: ", popular_birth)
     else:
